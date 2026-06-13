@@ -1,0 +1,86 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  text-align: center;
+
+  
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("/public/images/portfolio-img5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+
+.hero h1 {
+  font-size:52px;
+  max-width: 900px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color:#ffffff; 
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+.hero p {
+  font-size: 18px;
+  max-width: 700px;
+  opacity: 0.9;
+  margin-bottom: 30px;
+  color: #ffffff; 
+  opacity: 0.95;
+}
+
+
+.hero div {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+  background: linear-gradient(45deg, #ffcc00, #ff6b6b, #f72585);
+  color: black;
+  border: none;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+.secondary {
+  background: transparent;
+  border: 2px solid #ffcc00;
+  color: #ffcc00;
+}
+
+.secondary:hover {
+  background: #ffcc00;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+}

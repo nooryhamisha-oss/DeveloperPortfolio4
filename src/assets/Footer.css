@@ -1,0 +1,36 @@
+.footer {
+  margin-top: 80px;
+  padding: 35px 8%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+ 
+  background: #0b0b0b;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+.footer p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+
+.footer p span {
+  background: linear-gradient(45deg, #ffcc00, #ff6b6b, #f72585);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+
+.footer:hover {
+  box-shadow: 0 -10px 30px rgba(255, 123, 0, 0.15);
+}
