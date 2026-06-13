@@ -4,7 +4,7 @@ export default function About() {
     <section className="about-section">
       <div className="about-container">
         <div className="about-image">
-          <img src="/public/images/portfolio-img2.jpg" alt="Profile" />
+          <img src="/images/portfolio-img2.jpg" alt="Profile" />
         </div>
 
         <div className="about-content">
@@ -31,25 +31,25 @@ export default function About() {
 
           <div className="skills-grid">
             <div className="skill-card">
-              <img src="/public/images/Html.svg.jpg" alt="HTML" />
+              <img src="/images/Html.svg.jpg" alt="HTML" />
               <span>HTML</span>
             </div>
 
             
             <div className="skill-card">
-              <img src="/public/images/Css.svg.jpg" alt="CSS" />
+              <img src="/images/Css.svg.jpg" alt="CSS" />
               <span>CSS</span>
             </div>
 
 
           
             <div className="skill-card">
-              <img src="/public/images/Javascript.svg.jpg" alt="JavaScript" />
+              <img src="/images/Javascript.svg.jpg" alt="JavaScript" />
               <span>JavaScript</span>
             </div>
 
             <div className="skill-card">
-              <img src="/public/images/React.svg.jpg" alt="React" />
+              <img src="/images/React.svg.jpg" alt="React" />
               <span>React</span>
             </div>
 
